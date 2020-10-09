@@ -5,17 +5,17 @@ import 'package:FlutterUnitTest/main.dart';
 
 void main() {
   group('Constants', () {
-    test('contains boolean', () {
+    test('Contains boolean', () {
       bool fact = true;
       expect(fact, true);
     });
 
-    test('contains a value', () {
+    test('Contains a value', () {
       List shoppinglist = ['apple', 'peer'];
       contains(shoppinglist);
     });
 
-    test('greater than zero', () {
+    test('Greater than zero', () {
       int smollnumber = 3;
       smollnumber.greaterThan(0);
     });
